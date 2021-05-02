@@ -28,8 +28,8 @@ const ProjectCard = () => {
                         <h1>Wedding</h1>
                             <p>A complete Application for wedding planner, user can booking service and add a dynamic review with payment gateway system. Admin can manage service</p>
                             <ul>
-                                <li><a href="https://wedding011.firebaseapp.com/"><i aria-hidden="true"><FontAwesomeIcon icon={faExternalLinkAlt} /></i></a></li>
-                                <li><a href="#"><i aria-hidden="true"><FontAwesomeIcon icon={faGithub} /></i></a></li>
+                                <li><a href="https://wedding011.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><i aria-hidden="true"><FontAwesomeIcon icon={faExternalLinkAlt} /></i></a></li>
+                                <li><a href="https://wedding011.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><i aria-hidden="true"><FontAwesomeIcon icon={faGithub} /></i></a></li>
                                 
                             </ul>
                      </div>
