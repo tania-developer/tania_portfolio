@@ -1,16 +1,16 @@
 import React from 'react';
 import './ProjectCard.css';
-import wedding from '../../images/wedding.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
-const ProjectCard = () => {
+const ProjectCard = ({pr}) => {
+    console.log(pr);
     return (
         <section className='body'>
             <div className="card">
                 <div className="image">
-                    <img src={wedding} alt="website imagae"/>
+                    <img src={pr.pic} alt="website imagae"/>
                 </div>
                 <div className="feature">
                      <ul>
@@ -25,7 +25,7 @@ const ProjectCard = () => {
                 </div>
                 <div className="details">
                     <div className="center">
-                        <h1>Wedding</h1>
+                        <h1>{pr.name}</h1>
                             <p>A complete Application for wedding planner, user can booking service and add a dynamic review with payment gateway system. Admin can manage service</p>
                             <ul>
                                 <li><a href="https://wedding011.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLinkAlt} /></a></li>

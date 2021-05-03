@@ -1,11 +1,11 @@
 .body {
     margin: 0;
     padding: 0;
-    background: #250008;
+    
     font-family: sans-serif;
 }
 .card {
-    position: absolute;
+    
     /* top: 50%;
     left: 50%;
     transform: translate(-50%,-50%); */
@@ -13,6 +13,7 @@
     height: 350px;
     background: #000;
     border: none;
+    margin: 15px;
 }
 .card .image {
     width: 100%;
@@ -116,4 +117,8 @@
 }
 .card .details .center ul li a:hover {
     background: #153956;
+}
+
+.project-container{
+    display: flex;
 }

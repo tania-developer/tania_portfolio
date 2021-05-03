@@ -1,5 +1,6 @@
 import React from 'react';
-import './Banner.css'
+import './Banner.css';
+import developer from '../../../images/developer.jpg'
 
 const Banner = () => {
     return (
@@ -15,9 +16,9 @@ const Banner = () => {
                         <button className="button">Get in touch</button>
                     </div>
                 </div>
-               
-                <div className="col-md-5">
-                    
+
+                <div className="col-md-5 developer-pic">
+                <img src= {developer} alt="developer"/> 
                 </div>
             </div>
            </div>

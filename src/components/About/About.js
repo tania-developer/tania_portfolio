@@ -17,6 +17,17 @@ const About = () => {
                 </div>  
                 <div className='skill'>
                     <h3>My <span style={{color: '#F07B61'}}>Skills</span></h3>
+                    <ul>
+                        <li>javaScript</li>
+                        <li>react</li>
+                        <li>nodeJs</li>
+                        <li>MongoDB</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>bootstrap</li>
+                        <li>Material UI</li>
+                        
+                     </ul>
                 </div>  
             </div>     
         </section>

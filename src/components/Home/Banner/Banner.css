@@ -1,8 +1,8 @@
 .main-sec{
     background-color: #153956;
     color: #fff;
-    height: 100vh;
-    padding-top: 100px;
+    
+    padding: 120px 20px;
 }
 h2{
     font-size:43px;
@@ -63,4 +63,14 @@ h2{
     overflow: hidden;
     transition: 1s all ease;
     margin-right: 20px;
+  }
+
+  .developer-pic{
+  
+    display: flex;
+    justify-content: center;
+  }
+  .developer-pic img{
+    width: 450px;
+
   }
