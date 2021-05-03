@@ -48,9 +48,9 @@ const Contact = () => {
                         </ul>
                         <p>You can also use this form on this page.</p>
                     </div>
-                    <div className='col-md-6' >
-                        <h3>Contact Form</h3>
+                    <div className='col-md-6 form-container' >
                         <form onSubmit={onSubmit}>
+                        <h3>Contact Form</h3>
                             <label>Full Name</label>
                             <input
                                 type='text'

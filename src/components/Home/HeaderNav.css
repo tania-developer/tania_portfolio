@@ -1,8 +1,19 @@
 .nav{
     color: #8CA7BB;
-   
 }
 .nav:hover{
     text-decoration: none;
     color: #fff;
+}
+
+.resume{
+    color: #fff;
+    border: 2px solid #F07B61;
+    padding: 3px 15px 5px 15px;
+    max-width: fit-content;
+}
+.resume:hover{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
 }

@@ -3,7 +3,7 @@ input, textarea{
     margin-bottom: 10px;
     width: 400px;
     padding: 10px ;
-    background-color:#16203A;
+    background-color:#002E4D;
     border: 1px solid gray;
 }
 .link{
@@ -15,4 +15,8 @@ input, textarea{
 }
 h4{
     margin-bottom: 20px;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
 }

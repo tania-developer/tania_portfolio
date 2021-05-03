@@ -15,6 +15,7 @@ const HeaderNav = () => {
                         <Link to="/portfolio" className="mr-4 nav">Portfolio</Link>
                         <Link to="/blog" className="mr-4 nav">Blog</Link>
                         <Link to="/contact" className="mr-4 nav">Contact</Link>
+                        <a href="/Tania's_resume.pdf" className="mr-4 resume" download>Resume</a>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

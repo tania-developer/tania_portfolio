@@ -11,6 +11,7 @@ import Works from './components/Works/Works';
 import HeaderNav from './components/Home/HeaderNav';
 import Contact from './components/Contact/Contact';
 import Blog from './components/Blog/Blog';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route path="/blog">
             <Blog/>
+          </Route>
+          <Route path="/about">
+            <About/>
           </Route>
         </Switch>
      

@@ -1,0 +1,27 @@
+.about-container{
+    background-color: #16203A;
+    padding:100px 20px;
+}
+.about-sec{
+    background-color: #153956;
+}
+.about-text{
+    padding: 35px 25px;
+}
+.about-text h1,p , .skill h3{
+    color: #fff;
+}
+.pic{
+    height:250px;
+    margin: 0 auto;
+}
+.pic-container{
+    
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.skill h3{
+    margin: 50px 0px;
+    
+}
