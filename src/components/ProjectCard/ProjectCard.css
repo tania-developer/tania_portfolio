@@ -9,7 +9,7 @@
     /* top: 50%;
     left: 50%;
     transform: translate(-50%,-50%); */
-    width: 350px;
+    width: 400px;
     height: 350px;
     background: #000;
     border: none;
@@ -121,4 +121,6 @@
 
 .project-container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

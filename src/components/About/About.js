@@ -9,7 +9,7 @@ const About = () => {
                 <div className='row about-sec'>
                     <div className='col-md-7 about-text'>
                         <h1>About <span style={{color: '#F07B61'}}>Tania</span></h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ut, velit a pariatur possimus aspernatur labore doloribus ratione. Explicabo dolor perspiciatis maxime excepturi animi debitis quod harum possimus assumenda ea? <br/><br/>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga voluptates, nostrum modi omnis vero aut adipisci perspiciatis </p>
+                        <p>I'm a Full Stack Web Developer with experience creating custom websites through javaScript, React, MongoDB, and nodeJS. I have the ability to develop, integrate and maintain websites with various back-end frameworks. I can create responsive designs for web applications by using React. And also have some knowledge of TypeScript, Next JS, Tailwind, etc.<br/><br/> My interests include traveling, reading books, and cooking. </p>
                     </div>
                     <div className='col-md-5 pic-container'>
                         <img src={pic} alt="pic" className='pic'/>

@@ -9,6 +9,10 @@ input, textarea{
 .link{
     color: #F07B61;
 }
+.link:hover{
+    text-decoration: none;
+    color: #F07B61;
+}
 .contact{
     margin-bottom: 25px;
     color: #F07B61;

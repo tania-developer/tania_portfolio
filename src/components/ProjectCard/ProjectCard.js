@@ -14,7 +14,7 @@ const ProjectCard = ({pr}) => {
                 </div>
                 <div className="feature">
                      <ul>
-                        <li>java</li>
+                        <li>JavaScript</li>
                         <li>react</li>
                         <li>nodeJs</li>
                         <li>HTML</li>
@@ -26,10 +26,10 @@ const ProjectCard = ({pr}) => {
                 <div className="details">
                     <div className="center">
                         <h1>{pr.name}</h1>
-                            <p>A complete Application for wedding planner, user can booking service and add a dynamic review with payment gateway system. Admin can manage service</p>
+                            <p>{pr.description}</p>
                             <ul>
-                                <li><a href="https://wedding011.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLinkAlt} /></a></li>
-                                <li><a href="https://wedding011.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a href={pr.link} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLinkAlt} /></a></li>
+                                <li><a href={pr.gitLink} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
                                 
                             </ul>
                      </div>
