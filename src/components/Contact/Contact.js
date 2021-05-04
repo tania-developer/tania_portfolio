@@ -43,8 +43,8 @@ const Contact = () => {
                         <p>Do you have an interesting project I can help with? Feel free to reach out to me by using one of the following:</p>
                         <ul>
                             <li>Email: <span className='link'>tania.cse43@gmail.com</span> </li>
-                            <li>LinkedIn: <a href='https://www.linkedin.com/in/tania-developer/' target='_blank' className='link'><span >tania-developer</span></a></li>
-                            <li>GitHub: <a href='https://github.com/tania-developer' target='_blank' className='link'><span >tania-developer</span></a></li>
+                            <li>LinkedIn: <a href='https://www.linkedin.com/in/tania-developer/' target='_blank' rel="noopener noreferrer" className='link'><span >tania-developer</span></a></li>
+                            <li>GitHub: <a href='https://github.com/tania-developer' target='_blank' rel="noopener noreferrer" className='link'><span >tania-developer</span></a></li>
                         </ul>
                         <p>You can also use this form on this page.</p>
                     </div>
