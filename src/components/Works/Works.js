@@ -35,7 +35,7 @@ const Works = () => {
     ]
     
     return (
-        <div className='work-sec'style={{backgroundColor: '#16203A', color: '#fff', padding: '100px 20px'}}>
+        <div className='work-sec'style={{backgroundColor: '#16203A', color: '#fff', padding: '190px 20px'}}>
            <div className="container">
            
            <h1>Full Stack Web Developer Portfolio</h1>

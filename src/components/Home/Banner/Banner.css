@@ -1,8 +1,8 @@
 .main-sec{
     background-color: #153956;
     color: #fff;
-    
-    padding: 120px 20px;
+    min-height: 100vh;
+    padding: 190px 20px;
 }
 h2{
     font-size:43px;

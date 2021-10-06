@@ -6,7 +6,7 @@ import './HeaderNav.css'
 const HeaderNav = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" variant="dark" style={{backgroundColor: '#153956'}}>             
+            <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" style={{backgroundColor: '#153956'}}>             
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto pr-5 py-3 ">
